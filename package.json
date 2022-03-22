@@ -1,0 +1,63 @@
+{
+  "name": "universe-travel-front",
+  "version": "0.0.1",
+  "author": "sorokdva.developer@gmail.com",
+  "description": "The front-end of Universe * Travel",
+  "homepage": "https://universe-travel.ga",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/universe-travel/website.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build:analyze": "ANALYZE=true next build && tsc --project tsconfig.server.json",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5.9",
+    "@chakra-ui/core": "^0.8.0",
+    "@emotion/core": "^10.3.1",
+    "@emotion/styled": "^10.3.0",
+    "@fortawesome/fontawesome-svg-core": "^1.3.0",
+    "@fortawesome/free-brands-svg-icons": "^6.0.0",
+    "@fortawesome/free-solid-svg-icons": "^6.0.0",
+    "@fortawesome/react-fontawesome": "^0.1.17",
+    "@material-ui/core": "^4.12.3",
+    "@sentry/nextjs": "^6.18.2",
+    "@sentry/wizard": "^1.2.17",
+    "axios": "^0.26.0",
+    "bootstrap": "^5.1.3",
+    "dayjs": "^1.10.8",
+    "emotion-theming": "^10.3.0",
+    "formik": "^2.2.9",
+    "graphql": "^16.3.0",
+    "joi": "^17.6.0",
+    "next": "^12.1.0",
+    "next-auth": "^4.0.6",
+    "next-i18next": "^10.5.0",
+    "next-seo": "^5.1.0",
+    "pg": "^8.7.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "rxjs": "^7.5.4",
+    "slate": "^0.75.0",
+    "slate-react": "^0.75.0",
+    "suneditor": "^2.42.0",
+    "suneditor-react": "^3.4.0",
+    "xss": "^1.0.11",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/next": "^9.0.0",
+    "@types/node": "^17.0.21",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "tslint": "^6.1.3",
+    "tslint-react": "^5.0.0",
+    "typescript": "^4.5.5"
+  }
+}

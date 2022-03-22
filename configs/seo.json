@@ -1,0 +1,24 @@
+{
+  "defaultTitle":"Universe * Travel | Une communauté de passionné(e)s",
+  "titleTemplate":"%s | Universe * Travel",
+  "description":"A community of sciences and astronomy enthusiasts !",
+  "canonical":"https://universe-travel.eu/",
+  "openGraph":{
+    "url":"https://universe-travel.eu/",
+    "title":"Universe * Travel",
+    "description":"A community of sciences and astronomy enthusiasts !",
+    "images":[
+      {
+        "url":"https://universe-travel.eu/images/logo.png",
+        "width":800,
+        "height":800,
+        "alt":"Utravel Logo"
+      }
+    ]
+  },
+  "twitter":{
+    "handle":"@42_UTravel",
+    "site":"@42_UTravel",
+    "cardType":"summary_large_image"
+  }
+}
